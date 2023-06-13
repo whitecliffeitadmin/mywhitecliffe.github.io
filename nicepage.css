@@ -41492,10 +41492,10 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         .u-body
         {
-        background-image: url("images/1920x1080_whitecliffe_login_web.webp");
-        background-size: initial;
-        background-position: top left;
-        background-repeat: repeat;
+        background-image: url("images/1920x1080_whitecliffe_dark.webp");
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
         background-attachment: fixed;
         }
         .u-input
@@ -41676,13 +41676,13 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 100px;
+  min-height: 102px;
 }
 
 .u-header .u-image-1 {
   width: 66px;
   height: 66px;
-  margin: 17px auto 0 0;
+  margin: 18px auto 0 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -41693,7 +41693,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-text-1 {
   font-size: 1.5rem;
   font-weight: 700;
-  margin: -52px auto 31px 66px;
+  margin: -52px auto 32px 66px;
 }
 
 .u-header .u-btn-1 {
@@ -41732,29 +41732,12 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-icon-4 {
   height: 100%;
 }
-@media (max-width: 1199px) {
-  .u-footer .u-sheet-1 {
-    min-height: 99px;
-  }
-}
-@media (max-width: 991px) {
-  .u-footer .u-sheet-1 {
-    min-height: 76px;
-  }
-}
-@media (max-width: 767px) {
-  .u-footer .u-sheet-1 {
-    min-height: 57px;
-  }
-}
-@media (max-width: 575px) {
-  .u-footer .u-sheet-1 {
-    min-height: 100px;
-  }
 
+
+
+@media (max-width: 575px) {
   .u-footer .u-social-icons-1 {
     margin-top: 34px;
-    margin-bottom: 34px;
   }
 }
 
