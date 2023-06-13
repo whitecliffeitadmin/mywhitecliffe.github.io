@@ -3,25 +3,20 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 150px;
+  min-height: 75px;
 }
 
 .u-section-1 .u-text-1 {
   text-shadow: 0px 0px 10px rgba(0,0,0,0.95);
   box-shadow: 0px 0px 0 0 rgba(0,0,0,0);
-  font-size: 3rem;
+  font-size: 1.875rem;
   font-weight: 700;
-  margin: 49px auto;
+  margin: 21px auto 0;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
     min-height: 152px;
-  }
-
-  .u-section-1 .u-text-1 {
-    margin-top: -111px;
-    margin-bottom: -111px;
   }
 }
 
@@ -44,18 +39,13 @@
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 3rem;
+    font-size: 1.875rem;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
     min-height: 171px;
-  }
-
-  .u-section-1 .u-text-1 {
-    margin-top: 0;
-    margin-bottom: 0;
   }
 } .u-section-2 {
   background-image: none;
@@ -68,7 +58,7 @@
 }
 
 .u-section-2 .u-image-1 {
-  min-height: 464px;
+  min-height: 410px;
   background-image: url("images/Whitecliffe_students_group_phohto.jpg");
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
@@ -86,7 +76,7 @@
 .u-section-2 .u-image-2 {
   background-image: url("images/SYM_Building_550.jpg");
   background-position: 50% 50%;
-  min-height: 464px;
+  min-height: 410px;
   background-size: auto 125%;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
@@ -103,7 +93,7 @@
 .u-section-2 .u-image-3 {
   background-image: url("images/WC_Students_oncampus_550.jpg");
   background-position: 21.49% 50%;
-  min-height: 464px;
+  min-height: 410px;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
@@ -395,15 +385,15 @@
   }
 
   .u-section-2 .u-image-1 {
-    min-height: 383px;
+    min-height: 338px;
   }
 
   .u-section-2 .u-image-2 {
-    min-height: 383px;
+    min-height: 338px;
   }
 
   .u-section-2 .u-image-3 {
-    min-height: 383px;
+    min-height: 338px;
   }
 
   .u-section-2 .u-list-1 {
