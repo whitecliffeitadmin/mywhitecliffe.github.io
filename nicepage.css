@@ -41493,10 +41493,10 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-body
         {
         background-image: url("images/1920x1080_whitecliffe_dark.webp");
-        background-size: cover;
-        background-position: 50% 50%;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-size: initial;
+        background-position: top left;
+        background-repeat: repeat;
+        background-attachment: scroll;
         }
         .u-input
         {
@@ -41671,8 +41671,8 @@ a.u-link.u-text-hover-grey-90:hover {
 
 /*end-variables sitestylecss*/
  .u-header {
-  background-image: none;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  background-image: none;
 }
 
 .u-header .u-sheet-1 {
