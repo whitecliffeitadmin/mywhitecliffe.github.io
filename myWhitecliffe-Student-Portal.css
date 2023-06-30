@@ -11,8 +11,10 @@
   margin-bottom: 0;
 }
 
-.u-section-1 .u-layout-cell-1 {
+.u-section-1 .u-image-1 {
   min-height: 375px;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url("images/Wlogos2.png");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -99,7 +101,7 @@
     min-height: 455px;
   }
 
-  .u-section-1 .u-layout-cell-1 {
+  .u-section-1 .u-image-1 {
     min-height: 309px;
   }
 
@@ -123,8 +125,8 @@
     min-height: 60px;
   }
 
-  .u-section-1 .u-layout-cell-1 {
-    min-height: 100px;
+  .u-section-1 .u-image-1 {
+    min-height: 237px;
   }
 
   .u-section-1 .u-layout-cell-2 {
@@ -141,6 +143,10 @@
     min-height: 160px;
   }
 
+  .u-section-1 .u-image-1 {
+    min-height: 356px;
+  }
+
   .u-section-1 .u-container-layout-1 {
     padding-left: 50px;
     padding-right: 50px;
@@ -148,6 +154,10 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-image-1 {
+    min-height: 251px;
+  }
+
   .u-section-1 .u-text-1 {
     font-size: 1.5rem;
   }
@@ -164,7 +174,6 @@
   grid-template-columns: calc(25% - 15px) calc(25% - 15px) calc(25% - 15px) calc(25% - 15px);
   min-height: 370px;
   grid-gap: 20px 20px;
-  grid-auto-columns: calc(25% - 15px);
 }
 
 .u-section-2 .u-list-item-1 {
@@ -475,7 +484,6 @@
   .u-section-2 .u-repeater-1 {
     grid-template-columns: calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px);
     min-height: 1355px;
-    grid-auto-columns: calc(50% - 10px);
   }
 
   .u-section-2 .u-text-1 {
@@ -534,7 +542,6 @@
   .u-section-2 .u-repeater-1 {
     grid-template-columns: calc(50% - 5px) calc(50% - 5px);
     min-height: 722px;
-    grid-auto-columns: calc(100% - 0px);
     width: 422px;
     margin-right: auto;
     margin-left: auto;
@@ -626,7 +633,6 @@
   .u-section-2 .u-repeater-1 {
     grid-template-columns: calc(50% - 10px) calc(50% - 10px);
     min-height: 730px;
-    grid-auto-columns: 100%;
   }
 
   .u-section-2 .u-container-layout-1 {
