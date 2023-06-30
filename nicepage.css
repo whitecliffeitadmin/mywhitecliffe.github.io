@@ -41465,9 +41465,9 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-body
         {
         background-image: url("images/BlackPixel.png");
-        background-size: cover;
-        background-position: 50% 50%;
-        background-repeat: no-repeat;
+        background-size: initial;
+        background-position: top left;
+        background-repeat: repeat;
         background-attachment: fixed;
         }
         .u-input
