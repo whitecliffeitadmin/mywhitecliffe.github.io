@@ -3,16 +3,16 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 440px;
+  min-height: 395px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
-  width: 100%;
-  margin: 20px 0 40px;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
 .u-section-1 .u-layout-cell-1 {
-  min-height: 400px;
+  min-height: 375px;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -25,63 +25,125 @@
   margin: 0;
 }
 
-.u-section-1 .u-image-1 {
-  min-height: 400px;
-  background-image: url("images/Whitecliffe_students_group_phohto.jpg");
-  background-position: 50% 50%;
+.u-section-1 .u-layout-cell-2 {
+  min-height: 375px;
 }
 
 .u-section-1 .u-container-layout-2 {
-  padding: 30px 60px;
+  padding: 0;
+}
+
+.u-section-1 .u-gallery-1 {
+  height: 375px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-carousel-indicators-1 {
+  position: absolute;
+  bottom: 10px;
+}
+
+.u-section-1 .u-gallery-inner-1 {
+  grid-template-columns: auto auto;
+  grid-gap: 0px 0px;
+}
+
+.u-section-1 .u-carousel-item-1 {
+  margin-right: 0;
+}
+
+.u-section-1 .u-over-slide-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 30px;
+}
+
+.u-section-1 .u-carousel-item-2 {
+  margin-right: 0;
+}
+
+.u-section-1 .u-over-slide-2 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 30px;
+}
+
+.u-section-1 .u-carousel-item-3 {
+  margin-right: 0;
+}
+
+.u-section-1 .u-over-slide-3 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 30px;
+}
+
+.u-section-1 .u-carousel-control-1 {
+  position: absolute;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  background-image: none;
+  padding: 8px;
+}
+
+.u-section-1 .u-carousel-control-2 {
+  position: absolute;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  background-image: none;
+  padding: 8px;
 }
 
 @media (max-width: 1199px) {
-   .u-section-1 {
-    min-height: 318px;
+  .u-section-1 .u-sheet-1 {
+    min-height: 455px;
   }
 
-  .u-section-1 .u-sheet-1 {
-    min-height: 203px;
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 309px;
   }
 
   .u-section-1 .u-container-layout-1 {
     padding-left: 0;
     padding-right: 0;
   }
+
+  .u-section-1 .u-layout-cell-2 {
+    background-position: 50% 50%;
+    min-height: 309px;
+  }
+
+  .u-section-1 .u-gallery-inner-1 {
+    grid-template-columns: repeat(2, auto);
+  }
 }
 
 @media (max-width: 991px) {
-   .u-section-1 {
-    min-height: 66px;
-  }
-
   .u-section-1 .u-sheet-1 {
-    min-height: 77px;
+    min-height: 60px;
   }
 
   .u-section-1 .u-layout-cell-1 {
     min-height: 100px;
   }
 
-  .u-section-1 .u-container-layout-2 {
-    padding-left: 30px;
-    padding-right: 30px;
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-gallery-inner-1 {
+    grid-template-columns: repeat(1, auto);
   }
 }
 
 @media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 160px;
+  }
+
   .u-section-1 .u-container-layout-1 {
     padding-left: 50px;
     padding-right: 50px;
-  }
-
-  .u-section-1 .u-image-1 {
-    min-height: 800px;
-  }
-
-  .u-section-1 .u-container-layout-2 {
-    padding-left: 10px;
-    padding-right: 10px;
   }
 }
 
@@ -95,7 +157,7 @@
 
 .u-section-2 .u-list-1 {
   width: 909px;
-  margin: 40px auto;
+  margin: 30px auto 50px;
 }
 
 .u-section-2 .u-repeater-1 {
@@ -394,7 +456,6 @@
   .u-section-2 .u-list-1 {
     width: 800px;
     margin-top: 31px;
-    margin-bottom: 50px;
   }
 }
 
@@ -518,7 +579,6 @@
 
   .u-section-2 .u-list-1 {
     width: 400px;
-    margin-right: calc(((100% - 380px) / 2) + -20px);
   }
 
   .u-section-2 .u-repeater-1 {
@@ -1082,7 +1142,7 @@
 .u-container-layout.hover .u-block-1e5e-135:not([data-block-selected]):not([data-cell-selected]) {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 } .u-section-3 {
-  background-image: url("images/BlackPixel-16.png");
+  background-image: url("images/BlackPixel-19.png");
 }
 
 .u-section-3 .u-sheet-1 {
@@ -1099,7 +1159,7 @@
     background-position: 50% 50%;
   }
 } .u-section-4 {
-  background-image: url("images/BlackPixel-16.png");
+  background-image: url("images/BlackPixel-19.png");
 }
 
 .u-section-4 .u-sheet-1 {

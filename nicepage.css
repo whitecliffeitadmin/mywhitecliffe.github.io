@@ -41665,21 +41665,41 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-text-1 {
   font-size: 1.5rem;
   font-weight: 700;
-  margin: -52px auto 32px 66px;
+  margin: -52px auto 0 66px;
 }
 
 .u-header .u-btn-1 {
   background-image: none;
   padding: 0;
 }
+
+.u-header .u-btn-2 {
+  background-image: none;
+  margin: -32px 18px 38px auto;
+  padding: 0;
+}
+
+.u-header .u-icon-1 {
+  margin-right: 14px;
+}
 @media (max-width: 1199px) {
   .u-header .u-text-1 {
     margin-top: -52px;
   }
+
+  .u-header .u-btn-2 {
+    margin-top: -32px;
+    margin-right: 0;
+  }
 }
 
 
-
+@media (max-width: 575px) {
+  .u-header .u-btn-2 {
+    margin-right: auto;
+    margin-left: 263px;
+  }
+}
  .u-footer {
   background-image: none;
 }
